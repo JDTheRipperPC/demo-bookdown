@@ -1,0 +1,16 @@
+book_filename: interpretable-ml
+repo: https://github.com/JDTheRipperPC/demo-bookdown
+output_dir: "_book"
+rmd_subdir: FALSE
+language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
+  ui:
+    edit: "Edit"
+    chapter_name: "Chapter "
+rmd_files: ["index.Rmd",
+            "01-introduction.Rmd",
+            "01.2-introduction2.Rmd",
+            "02-other.Rmd",
+            "11-references.Rmd"]

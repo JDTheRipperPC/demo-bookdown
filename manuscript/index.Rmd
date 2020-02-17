@@ -1,0 +1,23 @@
+---
+title: "Demo bookdown"
+subtitle: "A subtitle for the demo."
+author: "JD The Ripper PC"
+date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
+documentclass: krantz
+link-citations: yes
+colorlinks: yes
+lot: no
+lof: no
+fontsize: 12pt
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+site: bookdown::bookdown_site
+description: "foo description"
+#url:
+github-repo: JDTheRipperPC/demo-bookdown
+always_allow_html: yes
+---
+
+```{r child = '00.0-index.Rmd'}
+```
